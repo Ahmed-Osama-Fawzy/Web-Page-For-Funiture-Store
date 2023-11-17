@@ -1,0 +1,628 @@
+*{
+    padding: 0;
+    margin: 0;
+    pointer-events: painted;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Media Quaries */
+@media(max-width:650px){
+    body{
+        text-align: center !important;
+    }
+    article section aside{
+        width: 80% !important;
+        margin: auto  !important;
+    }
+    article section:first-of-type div ,
+    article section:nth-of-type(2) div ,
+    article section:nth-of-type(3) div{
+        width: 80% !important;
+        margin: 10% !important;
+        padding: 2.5% !important;
+    }
+    article section:nth-of-type(4) div{
+        width: 45% !important;
+        padding: 1.25% !important;
+        margin: 1.25% !important;
+    }
+    article section:nth-of-type(5)>div ,  article section:nth-of-type(5)  div:last-of-type{
+        width: 90% !important;
+    }
+    article section:nth-of-type(6) div{
+        width: 80% !important;
+        margin: 10% !important;
+        padding: 2.5% !important;
+    }
+    footer div , footer section {
+        width: 80% !important;
+        margin: 5% !important;
+        padding: 5% !important;
+    }
+    footer section div:first-of-type {
+        display: none !important;
+    }
+    footer section , footer section div{
+        width: 90% !important;
+        margin: 0 !important;
+    }
+    #ME span{
+        width: 100% !important;
+    }
+}
+@media(max-width:1000px) and (min-width:651px){
+    body{
+        text-align: center !important;
+    }
+    article section aside{
+        width: 80% !important;
+        margin: auto  !important;
+    }
+    article section:first-of-type div {
+        width: 90% !important;
+        padding: 2.5% !important;
+        margin: 2.5% !important;
+    }
+    article section:nth-of-type(2) div ,
+    article section:nth-of-type(3) div , 
+    article section:nth-of-type(4) div{
+        width: 45% !important;
+        padding: 1.25% !important;
+        margin: 1.25% !important;
+    }
+    article section:nth-of-type(5)>div ,  article section:nth-of-type(5)  div:last-of-type{
+        width: 90% !important;
+    }
+    article section:nth-of-type(6) div{
+        width: 80% !important;
+        margin: 10% !important;
+        padding: 2.5% !important;
+    }
+    footer div{
+        width: 46% !important;
+        margin: 2% !important;
+    }
+    footer section div:first-of-type {
+        display: none !important;
+    }
+    footer section , footer section div{
+        width: 100% !important;
+    }
+}
+/* Media Quaries */
+header{
+    overflow: hidden;
+    background-image: url("images/sculptural-furniture-1574790540.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    width: 100%;
+    height: 800px;
+}
+header section{
+    padding: 1%;
+}
+header section:first-of-type div{
+    display: inline-block;
+}
+header section:first-of-type div:last-of-type{
+    float: right;
+}
+header section div h1{
+    font-size: xx-large;
+    padding-left: 5px;
+    display: inline-block;
+    color: red;
+}
+header section div ul {
+    list-style: none;
+}
+header section div ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px;
+    font-size: larger;
+    color:red;
+    transition: 1s;
+}
+header section div ul li:hover ,
+header section div ul li:visited{
+    color: rgb(0, 0, 0);
+}
+header section:last-of-type div{
+    width:  fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+header section div hr {
+    display: inline-block;
+    width: 30px;
+    background-color: black;
+    vertical-align: middle;
+    height: 2px;
+    margin-left: 40px;
+}
+header section div span{
+    display: inline-block;
+}
+header section div h2{
+    font-size: 50px;
+    padding: 10px;
+    color:red;
+}
+header section div button{
+    height: 37px;
+    width: 90px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 2s;
+    font-size: small;
+    background-color: red;
+    color: black;
+}
+header section div button:hover{
+    background-color: black;
+    color: red;
+}
+article {
+    width: 95%;
+    margin: 100px 0;
+    padding: 2.5%;
+}
+article section:first-of-type div{
+    float: left;
+    width: 46%;
+    padding: 1%;
+}
+article section:first-of-type div:last-child{
+    margin-top: 60px;
+}
+article section:first-of-type div img{
+    width: 100%;
+}
+article section:first-of-type div hr{
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    vertical-align: middle;
+    height: 2px;
+    margin-left: 40px;
+}
+article section:first-of-type div h2{
+    padding: 33px;
+    font-size: 50px;
+    color:red;
+}
+article section:first-of-type div p{
+    padding: 20px 40px;
+    line-height: 1.5;
+    font-size: large;
+}
+article section:first-of-type  div button{
+    margin: 64px;
+    height: 37px;
+    width: 190px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 2s;
+    font-size: small;
+    background-color: red;
+    color: black;
+}
+article section:first-of-type div button:hover{
+    background-color: black;
+    color: red;
+}
+article section:nth-of-type(2){
+    width: 98%;
+    padding: 1%;
+    margin: 100px 0;
+    display: inline-block;
+}
+article section:nth-of-type(2) div{
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0%;
+    height: 500px;
+}
+article section:nth-of-type(2) div img{
+    width: 100%;
+    height: 70%;
+}
+article section:nth-of-type(2) div span{
+    padding: 7px;
+    font-size: large;
+    opacity: 0.5;
+}
+article section:nth-of-type(2) div p{
+    padding: 4px 10px;
+    font-size: large;
+}
+article section:nth-of-type(3){
+    width: 98%;
+    padding: 1%;
+    margin: 100px 0;
+    display: inline-block;
+}
+article section:nth-of-type(3) div{
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0%;
+    height: 500px;
+    position: relative;
+}
+article section:nth-of-type(3) div img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}
+article section:nth-of-type(3) div img:hover{
+    opacity: 0.9;
+}
+article section:nth-of-type(3) div h2{
+    padding: 7px;
+    position: absolute;
+    z-index: 10;
+    left: 25px;
+    bottom: 50px;
+    font-size: xx-large;
+    transition: 1s;
+    opacity: 0.8;
+}
+article section:nth-of-type(3) div h2:hover{
+    opacity: 1;
+    transform: translateX(10px);
+}
+article section:nth-of-type(4){
+    width: 98%;
+    padding: 1%;
+    margin: 100px 0;
+    display: inline-block;
+}
+article section:nth-of-type(4) nav hr{
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    vertical-align: middle;
+    height: 2px;
+    margin-left: 40px;
+}
+article section:nth-of-type(4) aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    height: 210px;
+}
+article section:nth-of-type(4) aside h2{
+    padding: 33px;
+    font-size: 50px;
+    color:red;
+}
+article section:nth-of-type(4) button{
+    margin: 64px;
+    height: 37px;
+    width: 190px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 2s;
+    font-size: small;
+    background-color: red;
+    color: black;
+    margin-left: 62%;
+}
+article section:nth-of-type(4)  button:hover{
+    background-color: black;
+    color: red;
+}
+article section:nth-of-type(4) div{
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0%;
+    height: 500px;
+    overflow: hidden;
+}
+article section:nth-of-type(4) div img{
+    width: 100%;
+    height: 70%;
+    transition: 1s;
+}
+article section:nth-of-type(4) div img:hover{
+    transform: rotate(15deg);
+    opacity: 0.5;
+    border-radius: 50%;
+}
+article section:nth-of-type(4) div span{
+    padding: 7px;
+    font-size: large;
+    opacity: 0.5;
+}
+article section:nth-of-type(4) div p{
+    padding: 4px 10px;
+    font-size: large;
+}
+
+article section:nth-of-type(5) div:first-of-type{
+    width: 40%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    left: 50px;
+    background-color: azure;
+    opacity: 0.7;
+    height: 500px;
+    transition: 1s;
+}
+article section:nth-of-type(5) div:first-of-type:hover {
+    opacity: 1;
+}
+article section:nth-of-type(5) div:first-of-type h2 {
+    padding: 33px;
+    font-size: 50px;
+    color:red;
+}
+article section:nth-of-type(5) div:first-of-type p{
+    padding: 4px 10px;
+    font-size: large;
+    line-height: 1.5;
+}
+article section:nth-of-type(5) div:first-of-type button{
+    margin: 64px;
+    height: 37px;
+    width: 190px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 1s;
+    font-size: small;
+    background-color: red;
+    color: black;
+}
+article section:nth-of-type(5)  button:hover{
+    background-color: black;
+    color: red;
+}
+article section:nth-of-type(5) div:last-of-type {
+    float: right;
+    width: 70%;
+    z-index: 1;
+    margin: 0;
+    background-image: url("images/industrial-storage-pop-up-coffee-table-z.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+article section:nth-of-type(6){
+    width: 98%;
+    padding: 1%;
+    margin: 100px 0;
+    display: inline-block;
+}
+article section:nth-of-type(6) nav hr{
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    vertical-align: middle;
+    height: 2px;
+    margin-left: 40px;
+}
+article section:nth-of-type(6) aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    height: 210px;
+}
+article section:nth-of-type(6) aside h2{
+    padding: 33px;
+    font-size: 50px;
+    color:red;
+}
+article section:nth-of-type(6) button{
+    margin: 64px;
+    height: 37px;
+    width: 190px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 1s;
+    font-size: small;
+    background-color: red;
+    color: black;
+    margin-left: 62%;
+}
+article section:nth-of-type(6)  button:hover{
+    background-color: black;
+    color: red;
+}
+article section:nth-of-type(6) div{
+    float: left;
+    width: 42%;
+    margin: 2%;
+    padding: 1.5%;
+    background-color: whitesmoke;
+}
+article section:nth-of-type(6) div img {
+    height: 250px;
+    width: 250px;
+    display: inline;
+    box-shadow: 30px 30px 5px rgb(199, 196, 196);
+    transform: translate(-70px , -70px );
+    transition: 1s;
+}
+article section:nth-of-type(6) div img:hover{
+    border-radius:50% ;
+}
+article section:nth-of-type(6) div q {
+    display: inline;
+    font-size: larger;
+    padding: 15px;
+    line-height: 1.7;
+}
+article section:nth-of-type(6) div hr{
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    vertical-align: middle;
+    height: 2px;
+}
+footer {
+    width: 98%;
+    padding: 1%;
+    margin: 100px 0 0  0;
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+}
+footer section:first-of-type {
+    width: 95%;
+    margin: auto ;
+    transform: translate(0px , -200px);
+    height: 400px;
+}
+footer section:first-of-type div{
+    float: left;
+    width: 46%;
+    background-color: whitesmoke;
+    color: black;
+    height: 100%;
+    padding: 1%;
+}
+footer section:first-of-type div img{
+    width: 100%;
+    height: 100%;
+}
+footer section:first-of-type div hr{
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    vertical-align: middle;
+    height: 2px;
+    margin-left: 40px;
+}
+footer section:first-of-type div h2{
+    font-size: 50px;
+    color:red;
+}
+footer section:first-of-type div form input:first-of-type {
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left:60px ;
+}
+footer section:first-of-type div form input:last-of-type {
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 2s;
+    font-size: small;
+    background-color: red;
+    color: azure;
+    margin-left: 30px;
+}
+footer section:first-of-type div form input:last-of-type:hover {
+    background-color: azure;
+    color: black;
+}
+footer section:first-of-type div p{
+    color: black;
+    opacity: 0.5;
+    padding: 20px;
+    margin: 45px;
+}
+footer section:last-of-type {
+    float: left;
+    width: 40%;
+    line-height: 2;
+}
+footer section:last-of-type h1{
+    font-size: xx-large;
+    padding-left: 5px;
+    display: inline-block;
+    color:red;
+}
+footer div {
+    float: left;
+    width: 20%;
+    line-height: 2;
+}
+footer div h2 {
+    padding: 5px 20px;
+    color:red;
+}
+footer section:last-of-type  p {
+    color: rgb(173, 173, 173);
+}
+footer section:last-of-type  p svg{
+    padding-right: 5px;
+}
+footer div ul {
+    list-style: none;
+}
+footer div ul li{
+        color: rgb(173, 173, 173);
+        transition: 1s;
+}
+footer div ul li:hover{
+    color: whitesmoke;
+}
+footer div p {
+    color: rgb(173, 173, 173);
+}
+footer div div {
+    width: 80%;
+    margin: 5%;
+    padding: 5% 5% 5% 0;
+}
+footer div div svg {
+    padding-left: 8px;
+    color:  rgb(173, 173, 173);
+    transition: 2s;
+}
+footer div div svg:first-of-type:hover {
+    color: royalblue;
+}
+footer div div svg:nth-of-type(2):hover {
+    color: rgb(86, 153, 240);
+}
+footer div div svg:nth-of-type(3):hover {
+    color: violet;
+}
+footer div div svg:last-of-type:hover {
+    color: crimson;
+}
+#ME {
+    width: 90%;
+    padding: 5%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(173, 173, 173);
+}
+#ME span:first-of-type{
+    float: left;
+    width: 48%;
+    padding: 1%;
+}
+#ME span:last-of-type{
+    float: right !important;
+    width: 48%;
+    padding: 1%;
+    direction: rtl;
+    transition: 1s;
+}
+#ME span:last-of-type:hover{
+    color: whitesmoke;
+}
+svg , hr{ 
+    transition: 1s;
+}
+svg:hover{
+    transform: rotate(3600deg);
+}
+hr:hover{
+    transform: rotate(3600deg);
+}
